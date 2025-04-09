@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1584205422 source:c:\KaterinaStar2\development\selikhova-kateryna-kb24\lab08\prj\modulesselikhova\main.c
+
+1741800628 source:c:\KaterinaStar2\development\selikhova-kateryna-kb24\lab08\prj\modulesselikhova\main.cpp
+	<cmath>
+
+1744179430 source:/home/KaterinaStar2/Selikhova-kateryna-KB24/lab08/prj/ModulesSelikhova/main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<ctime>
+	<algorithm>
+	<cctype>
+	<cmath>
+	"ModulesSelikhova.h"
+
+1744179865 /home/KaterinaStar2/Selikhova-kateryna-KB24/lab08/prj/ModulesSelikhova.h
+
