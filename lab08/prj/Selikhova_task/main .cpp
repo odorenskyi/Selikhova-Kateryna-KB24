@@ -2,7 +2,7 @@
 #include <iomanip>
 #include <cmath>
 #include <string>
-#include "ModulesZaritskyi.h"
+#include "ModulesSelikhova.h"
 
 using namespace std;
 
