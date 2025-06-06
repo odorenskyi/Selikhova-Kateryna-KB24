@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1716030689 source:c:\users\deffe\onedrive\Робочий стіл\lab11\modulesRadchenko\main.cpp
+	<iostream>
+	<locale>
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<algorithm>
+	"ModulesRadchenko.h"
+

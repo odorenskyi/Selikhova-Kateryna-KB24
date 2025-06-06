@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1716137495 source:d:\git hub\novak-ki24\lab11\prj\modulesnovak\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+

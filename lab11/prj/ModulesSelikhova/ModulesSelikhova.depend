@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1716211633 source:c:\users\Катерина\desktop\универ\бмтп\lr\lr-11\prj\modulesselikhova\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<string>
+

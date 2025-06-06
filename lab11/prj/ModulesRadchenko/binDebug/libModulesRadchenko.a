@@ -1,0 +1,691 @@
+!<arch>
+/               1716028021  0     0     0       110       `
+      ≤   ≤   ≤_Z3asdv .refptr._ZSt4cout .refptr._ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_  main.o/         1716028020  0     0     100666  24136     `
+dÜ     ∆W  2      .text           ∞   î  îR      
+     P`.data                               @ P¿.bss                               Ä P¿.rdata             D              @ P@.xdata          0   T              @ 0@.pdata          0   Ñ  ¯R         @ 0@.ctors             ¥  pS         @ @¿/4              ÏA  º  zS      a   @ B/16               ®E              @ B/30             0   ≈K  DW         @ B/45             s  ıK  XW         @ B/57               hP              @ B/68             @   {Q              @ P@/79                ªQ  bW         @P@/153               ÀQ  lW         @P@/178            ∏   €Q  vW         @ @BUHâÂHÉÏ Hç   Hã
+    Ë    Hã    Hâ¡Ë    êHÉƒ ]√UHâÂHÉÏ Hç
+    Ë    êHÉƒ ]√UHâÂHÉÏ âMâUÉ}u!Å}ˇˇ  uHç
+    Ë    Hç
+µˇˇˇË    êHÉƒ ]√UHâÂHÉÏ ∫ˇˇ  π   Ë≠ˇˇˇêHÉƒ ]√êêêêêêêêêê Hello world    2P  2P  2P  2P      1       1   L      L   à      à   ¶   $   à       ËA       GNU C++14 8.1.0 -mtune=core2 -march=nocona -g C:\Users\deffe\OneDrive\–Ó·Ó˜ËÈ ÒÚ≥Î\LAB11\ModulesRadchenko\main.cpp C:\Users\deffe\OneDrive\–Ó·Ó˜ËÈ ÒÚ≥Î\LAB11\ModulesRadchenko        ¶           std % A  __cxx11 
+A
+A”   @
+\&  ã
+È  ç
+t&  é
+ç&  è
+≠&  ê
+—&  ë
+&  í
+'  ì
+3'  î
+U'  ï
+v'  ñ
+è'  ó
+°'  ò
+—'  ô
+˚'  ö
+(  õ
+N(  ú
+l(  û
+à(  û
+§(  †
+≈(  °
+Ê(  ¢
+)  §
+-)  ß
+S)  ß
+s)  ™
+ò)  ¨
+æ)  Æ
+ﬂ)  ∞
+ˇ)  ±
+$*  ≤
+C*  ≥
+b*  ¥
+Ç*  µ
+°*  ∂
+¡*  ∑
+Ú*  ∏
++  π
+1+  ∫
+V+  ª
+{+  º
+≠+  Ω
+Ã+  ø
+˚+  ¡
+#,  ¬
+B,  √
+f,  ƒ
+ã,  ≈
+∞,  ∆
+…,  «
+Ó,  »
+-  …
+9-   
+^-  À
+z-  Ã
+ï-  Õ
+¥-  Œ
+‘-  œ
+Ù-  –
+.  8.  	g.  
+å.  ˚+  -)  ò)  !ﬂ)  %8.  &g.  'å.   6   V
+X  6   Y_ZNSt9nothrow_tC4Ev Q  	≤.    
+#  
+nothrow ]_ZSt7nothrow X  __exception_ptr 4
+	  
+ë   O
+˚   _M_exception_object Q
+∏.   ë   S_ZNSt15__exception_ptr13exception_ptrC4EPv ˜    	∫.  ∏.   _M_addref U_ZNSt15__exception_ptr13exception_ptr9_M_addrefEv J  P  	∫.   _M_release V_ZNSt15__exception_ptr13exception_ptr10_M_releaseEv õ  °  	∫.   _M_get X
+_ZNKSt15__exception_ptr13exception_ptr6_M_getEv ∏.  Ë  Ó  	¿.   ë   ` _ZNSt15__exception_ptr13exception_ptrC4Ev )  /  	∫.   ë   b _ZNSt15__exception_ptr13exception_ptrC4ERKS0_ n  y  	∫.  ∆.   ë   e _ZNSt15__exception_ptr13exception_ptrC4EDn µ  ¿  	∫.  m   ë   i _ZNSt15__exception_ptr13exception_ptrC4EOS0_ ˛  	  	∫.  ﬂ.   ˚   v _ZNSt15__exception_ptr13exception_ptraSERKS0_ Â.  L  W  	∫.  ∆.   ˚   z _ZNSt15__exception_ptr13exception_ptraSEOS0_ Â.  ô  §  	∫.  ﬂ.   ~exception_ptr Å _ZNSt15__exception_ptr13exception_ptrD4Ev Í  ı  	∫.  	$   swap Ñ _ZNSt15__exception_ptr13exception_ptr4swapERS0_ 7   B   	∫.  Â.   operator bool ê_ZNKSt15__exception_ptr13exception_ptrcvbEv Î.  ç   ì   	¿.   __cxa_exception_type ô _ZNKSt15__exception_ptr13exception_ptr20__cxa_exception_typeEv ¯.  Ù   	¿.    
+í  I   9í  rethrow_exception E_ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE m  í   nullptr_t 
+ÚÃ.  type_info 
+  integral_constant<bool, false> Eô	  value G-Û.  @   H-Î.  operator std::integral_constant<bool, false>::value_type J_ZNKSt17integral_constantIbLb0EEcvbEv ≈  @	  F	  	˛.      O_ZNKSt17integral_constantIbLb0EEclEv ≈  	  Ö	  	˛.   _Tp Î.   __v Î.    
+è  integral_constant<bool, true> E¶
+  value G-Û.  @   H-Î.  operator std::integral_constant<bool, true>::value_type J_ZNKSt17integral_constantIbLb1EEcvbEv ”	  M
+  S
+  	/      O_ZNKSt17integral_constantIbLb1EEclEv ”	  å
+  í
+  	/   _Tp Î.   __v Î.   
+û	  !__swappable_details u	
+!__swappable_with_details √	
+__is_integer<long double>  $
+  " a"   Å
+  #®     _Tp X.   __is_integer<double>  a
+  " a"   ÅW
+  #®     _Tp Î+   __is_integer<float>  ù
+  " a"   Åì
+  #®     _Tp ,        L
+ﬂ
+      L+_ZNSt21piecewise_construct_tC4Ev ÿ
+  	:/    
+ù
+  $piecewise_construct O5ﬂ
+   %__debug 	2
+&char_traits<char> 
+…  '  
+ _ZNSt11char_traitsIcE6assignERcRKc e  b/  h/   (≈   
+!z  
+e  )eq 
+  _ZNSt11char_traitsIcE2eqERKcS2_ Î.  ≤  h/  h/   )lt 
+$ _ZNSt11char_traitsIcE2ltERKcS2_ Î.  Ì  h/  h/   )compare 
+, _ZNSt11char_traitsIcE7compareEPKcS2_y $  8
+  n/  n/  …   )length 
+: _ZNSt11char_traitsIcE6lengthEPKc …  s
+  n/   )find 
+D _ZNSt11char_traitsIcE4findEPKcyRS1_ n/  π
+  n/  …  h/   )move 
+R _ZNSt11char_traitsIcE4moveEPcPKcy t/  ˝
+  t/  n/  …   )copy 
+Z _ZNSt11char_traitsIcE4copyEPcPKcy t/  A  t/  n/  …   *  
+b _ZNSt11char_traitsIcE6assignEPcyc t/  Ñ  t/  …  e   *a   
+j _ZNSt11char_traitsIcE12to_char_typeERKi e  √  z/   (÷   
+!$  
+√  *K   
+p _ZNSt11char_traitsIcE11to_int_typeERKc √    h/   *π   
+t _ZNSt11char_traitsIcE11eq_int_typeERKiS2_ Î.  Y  z/  z/   +eof 
+x _ZNSt11char_traitsIcE3eofEv √  )not_eof 
+| _ZNSt11char_traitsIcE7not_eofERKi √  ø  z/   ,  z   size_t 
+Óñ  &char_traits<wchar_t> 
+Ññ  '  
+ç _ZNSt11char_traitsIwE6assignERwRKw 2  Ä/  Ü/   (≈   
+Ü!K"  
+2  )eq 
+ë _ZNSt11char_traitsIwE2eqERKwS2_ Î.    Ü/  Ü/   )lt 
+ï _ZNSt11char_traitsIwE2ltERKwS2_ Î.  ∫  Ü/  Ü/   )compare 
+ô _ZNSt11char_traitsIwE7compareEPKwS2_y $    å/  å/  …   )length 
+® _ZNSt11char_traitsIwE6lengthEPKw …  @  å/   )find 
+≥ _ZNSt11char_traitsIwE4findEPKwyRS1_ å/  Ü  å/  …  Ü/   )move 
+¬ _ZNSt11char_traitsIwE4moveEPwPKwy í/     í/  å/  …   )copy 
+  _ZNSt11char_traitsIwE4copyEPwPKwy í/    í/  å/  …   *  
+“ _ZNSt11char_traitsIwE6assignEPwyw í/  Q  í/  …  2   *a   
+⁄ _ZNSt11char_traitsIwE12to_char_typeERKt 2  ê  ò/   (÷   
+á!È  
+ê  *K   
+ﬁ _ZNSt11char_traitsIwE11to_int_typeERKw ê  ‡  Ü/   *π   
+‚ _ZNSt11char_traitsIwE11eq_int_typeERKtS2_ Î.  &  ò/  ò/   +eof 
+Ê _ZNSt11char_traitsIwE3eofEv ê  )not_eof 
+Í _ZNSt11char_traitsIwE7not_eofERKt ê  å  ò/   ,  K"   0
+û/  1
+Ω/  2
+ﬁ/  3
+ˇ/  5
+“0  6
+˚0  7
+&1  8
+Q1  :
+ 0  ;
+K0  <
+x0  =
+•0  ?
+|1  @
+∆  B
+≠/  C
+Õ/  D
+Ó/  E
+0  G
+Ê0  H
+1  I
+;1  J
+f1  L
+50  M
+a0  N
+é0  O
+ª0  Q
+ç1  R
+◊  
+5
+ª"  
+6
+À1  
+7
+Ï1  ptrdiff_t 
+Ô∞  
+3  Ä
+∫3  Ü
+â5  å
+£5  ç
+ª5  é
+”5  è
+Î5  ë
+46  î
+P6  ñ
+j6  ô
+á6  ö
+•6  õ
+À6  ù
+Ô6  £
+7  •
+!7  ¶
+67  ß
+U7  ®
+y7  ©
+û7  ´
+∑7  ¨
+›7  f5  ı7  ˆ¸7  ¯8  ˘~8  ˙38  ˚X8  ¸ù8  b
+A%  c
+∑1  e
+Ω8  f
+’8  g
+Ô8  h
+ 9  i
+!9  j
+;9  k
+T9  l
+z9  m
+ù9  n
+ª9  q
+‹9  r
+:  s
+):  t
+I:  u
+l:  v
+í:  x
+´:  y
+√:  ~
+‘:  
+Í:  É
+;  Ñ
+;  Ö
+>;  Ü
+T;  á
+n;  à
+â;  â
+≥;  ä
+‘;  ã
+Ù;  ç
+<  è
+<  ê
+><  ë
+d<  í
+Ñ<  π™<  ∫—<  ªˆ<  º=  ΩA=  -literals 	  string_literals 
+
+Í   ÿ  ._V2 G/G  0ios_base Ÿ  1Init [
+2Init _ _ZNSt8ios_base4InitC4Ev g  m  	f=   2~Init ` _ZNSt8ios_base4InitD4Ev ô  §  	f=  	$   3_S_refcount c73  3_S_synced_with_stdio dÎ.    R
+l=  S
+  T
+È  \
+~=  e
+ü=  h
+¿=  i
+⁄=  0basic_ostream<char, std::char_traits<char> > V  ,  z  4ﬂ      0basic_ostream<wchar_t, std::char_traits<wchar_t> > °  ,  K"  4ﬂ   ÿ   0basic_istream<char, std::char_traits<char> > Ê  ,  z  4ﬂ      0basic_istream<wchar_t, std::char_traits<wchar_t> > 1  ,  K"  4ﬂ   ÿ   istream ä!°  
+cin <_ZSt3cin 1  ostream ç!  
+cout =_ZSt4cout V  
+cerr >_ZSt4cerr V  
+clog ?_ZSt4clog V  wistream ≤#Ê  
+wcin B_ZSt4wcin ´  wostream µ#V  
+wcout C_ZSt5wcout ”  
+wcerr D_ZSt5wcerr ”  
+wclog E_ZSt5wclog ”  5__ioinit J0   6__gnu_cxx 
+
+b  __cxx11 
+A
+AT  ¯
+8.  
+g.  
+å.  %__ops #
+,…  -é  __numeric_traits_integer<int> 7ˇ  7Ä   :+  7n   ;+  7t   ?Û.  7∞   @+  ,œ   $   »
+f5  ÿ
+¸7  „
+8  ‰
+38  Â
+X8  Á
+~8  Ë
+ù8  8div ’_ZN9__gnu_cxx3divExx f5  g  ∞  ∞   Ø
+™<  ∞
+—<  ±
+ˆ<  ≤
+=  ≥
+A=  __numeric_traits_floating<float> dÛ  7   g+  7t   jÛ.  7Ü   k+  7    l+  ,œ   ,   __numeric_traits_floating<double> dX  7   g+  7t   jÛ.  7Ü   k+  7    l+  ,œ   Î+   __numeric_traits_floating<long double> d¬  7   g+  7t   jÛ.  7Ü   k+  7    l+  ,œ   X.   __numeric_traits_integer<long unsigned int> 71  7Ä   :ñ"  7n   ;ñ"  7t   ?Û.  7∞   @+  ,œ   Å"   __numeric_traits_integer<char> 7ì  7Ä   :Ç  7n   ;Ç  7t   ?Û.  7∞   @+  ,œ   z   __numeric_traits_integer<short int> 7˙  7Ä   :§%  7n   ;§%  7t   ?Û.  7∞   @+  ,œ   ó%   9__numeric_traits_integer<long long int> 77Ä   :¡  7n   ;¡  7t   ?Û.  7∞   @+  ,œ   ∞    :__builtin_va_list z  ;char 
+z  size_t #,ñ  ; long long unsigned int ;long long int 
+∞  intptr_t >#∞  uintptr_t K,ñ  wint_t j¯  ; short unsigned int 
+¯  wctype_t k¯  ;int 
+$  ;long int <pthreadlocinfo ®(T  =Z  >threadlocaleinfostruct `ºT!  ? ¬
+Ã  @locale √
+?"   @wlocale ƒE"  Aü   ≈
+["  @wrefcount ∆
+["   Aü   Ω $   @lc_codepage æa"  @lc_collate_cp øa"  @lc_handle ¿q"  @lc_id ¡õ"  $@lc_category «´"  HBlc_clike » $  Bmb_cur_max … $  Blconv_intl_refcount  ["  Blconv_num_refcount À["  Blconv_mon_refcount Ã["   Blconv Õm$  (Bctype1_refcount Œ["  0Bctype1 œs$  8Bpctype –y$  @Bpclmap —$  HBpcumap “$  PBlc_time_curr ”´$  X <pthreadmbcinfo ©%l!  =r!  Cthreadmbcinfostruct &localeinfo_struct ¨»!  @locinfo ≠<   @mbcinfo ÆT!   <_locale_tstruct Øá!  &tagLC_ID ≥0"  @wLanguage ¥¯   @wCountry µ¯  @wCodePage ∂¯   <LC_ID ∑·!  =z  =K"  ; wchar_t 
+K"  =$  ; unsigned int DÅ"  Å"  Eñ   ; long unsigned int 
+Å"  D0"  ´"  Eñ   D|  ª"  Eñ   lconv X-
+m$  decimal_point .
+?"   thousands_sep /
+?"  grouping 0
+?"  int_curr_symbol 1
+?"  currency_symbol 2
+?"   mon_decimal_point 3
+?"  (mon_thousands_sep 4
+?"  0mon_grouping 5
+?"  8positive_sign 6
+?"  @negative_sign 7
+?"  Hint_frac_digits 8
+z  Pfrac_digits 9
+z  Qp_cs_precedes :
+z  Rp_sep_by_space ;
+z  Sn_cs_precedes <
+z  Tn_sep_by_space =
+z  Up_sign_posn >
+z  Vn_sign_posn ?
+z  W =ª"  =¯  =  =ñ$  ;unsigned char 
+Ö$  C__lc_time_data =õ$  _iobuf 0)
+A%  _ptr *
+?"   _cnt +	$  _base ,
+?"  _flag -	$  _file .	$  _charbuf /	$   _bufsiz 0	$  $_tmpfname 1
+?"  ( FILE 3±$  F__imp__pctype ∫d%  =s$  F__imp__wctype …d%  F__imp__pwctype ÿd%  ;short int 
+ó%  &tm $Q
+W&  @tm_sec R	$   @tm_min S	$  @tm_hour T	$  @tm_mday U	$  @tm_mon V	$  @tm_year W	$  @tm_wday X	$  @tm_yday Y	$  @tm_isdst Z	$    
+©%  <mbstate_t à$  
+\&  Gbtowc ãÈ  ç&  $   Gfgetwc È  ß&  ß&   =A%  Gfgetws E"  —&  E"  $  ß&   Gfputwc È  &  K"  ß&   Gfputws 
+$  '  '  ß&   =V"  Gfwide ö$  3'  ß&  $   Hfwprintf I$  U'  ß&  '  I Hfwscanf %$  v'  ß&  '  I Ggetwc  È  è'  ß&   Jgetwchar È  Gmbrlen åá  ≈'  ≈'  á  À'   =Ç  =\&  Gmbrtowc çá  ˚'  E"  ≈'  á  À'   Gmbsinit õ$  (  (   =o&  Gmbsrtowcs éá  H(  E"  H(  á  À'   =≈'  Gputwc 	È  l(  K"  ß&   Gputwchar 
+È  à(  K"   KÁ   >$  §(  E"  '  I KÁ   "$  ≈(  E"  á  '  I Hswscanf $  Ê(  '  '  I Gungetwc 
+È  )  È  ß&   Hvfwprintf _$  -)  ß&  '  b   Hvfwscanf ?$  S)  ß&  '  b   KW   3$  s)  E"  '  b   KW   $  ò)  E"  á  '  b   Hvswscanf 1$  æ)  '  '  b   Hvwprintf f$  ﬂ)  '  b   Hvwscanf 8$  ˇ)  '  b   Gwcrtomb èá  $*  ?"  K"  À'   Gwcscat E"  C*  E"  '   Gwcscmp $  b*  '  '   Gwcscoll 8$  Ç*  '  '   Gwcscpy E"  °*  E"  '   Gwcscspn á  ¡*  '  '   Gwcsftime eá  Ï*  E"  á  '  Ï*   =W&  Gwcslen á  +  '   Gwcsncat  E"  1+  E"  '  á   Gwcsncmp !$  V+  '  '  á   Gwcsncpy "E"  {+  E"  '  á   Gwcsrtombs êá  ß+  ?"  ß+  á  À'   ='  Gwcsspn &á  Ã+  '  '   Hwcstod ﬁÎ+  Î+  '  ı+   ;double =E"  Hwcstof ‚,  ,  '  ı+   ;float Gwcstok (E"  B,  E"  '   Gwcstol Ì0  f,  '  ı+  $   Gwcstoul ÔÅ"  ã,  '  ı+  $   Gwcsxfrm 6á  ∞,  E"  '  á   Gwctob ë$  …,  È   Gwmemcmp ñ$  Ó,  '  '  á   Gwmemcpy óE"  -  E"  '  á   Gwmemmove ôE"  9-  E"  '  á   Gwmemset îE"  ^-  E"  K"  á   Hwprintf T$  z-  '  I Hwscanf $  ï-  '  I Gwcschr "E"  ¥-  '  K"   Gwcspbrk $"E"  ‘-  '  '   Gwcsrchr %"E"  Ù-  '  K"   Gwcsstr '"E"  .  '  '   Gwmemchr ï"E"  8.  '  K"  á   Gwcstold ÎX.  X.  '  ı+   ;long double Gwcstoll ú'∞  å.  '  ı+  $   Gwcstoull ù0ñ  ≤.  '  ı+  $   =#  L=í  =˚   M˚   Ndecltype(nullptr) Oí  Mí  ;bool 
+Î.  =ä  =ô	  =¶
+  ; __int128 unsigned ;signed char ;__int128 =ù
+  P‰
+  __gnu_debug 	8
+b/  /	:   Me  Mr  =r  =e  M–  M2  M?  =?  =2  Mù  int8_t #/  uint8_t $Ö$  int16_t %ó%  uint16_t &¯  int32_t '$  uint32_t (a"  int64_t )&∞  uint64_t *0ñ  int_least8_t -/  uint_least8_t .Ö$  int_least16_t /ó%  uint_least16_t 0¯  int_least32_t 1$  uint_least32_t 2a"  int_least64_t 3&∞  uint_least64_t 40ñ  int_fast8_t :/  uint_fast8_t ;Ö$  int_fast16_t <ó%  uint_fast16_t =¯  int_fast32_t >$  uint_fast32_t ?a"  int_fast64_t @&∞  uint_fast64_t A0ñ  intmax_t D&∞  uintmax_t E0ñ  ;char16_t ;char32_t fpos_t h%∞  
+∑1  Qsetlocale P?"  Ï1  $  ≈'   Rlocaleconv Q!m$  Dñ$  
+2  S F__newclmap Pˇ1  F__newcumap Qˇ1  F__ptlocinfo R<  F__ptmbcinfo ST!  F__globallocalestatus T$  F__locale_changed U$  F__initiallocinfo V(Z  F__initiallocalestructinfo W»!  F__imp___mb_cur_max À["  =Í2  TF__security_cookie }◊  U3  ∏.   =3  V_pthread_key_dest  #13  =3  _Atomic_word ! 
+$  =R3  W_div_t ";3  quot "<	$   rem "=	$   div_t ">S3  _ldiv_t "@∫3  quot "A
+0   rem "B
+0   ldiv_t "Cç3  D?"  Ÿ3  Eñ    F_sys_errlist "¨&…3  F_sys_nerr "≠$$  V__imp___argc "["  V__imp___argv ",4  =24  =?"  V__imp___wargv "!O4  =ı+  V__imp__environ "',4  V__imp__wenviron ",O4  V__imp__pgmptr "224  V__imp__wpgmptr "7ı+  V__imp__osplatform "<–4  =a"  V__imp__osver "A–4  V__imp__winver "F–4  V__imp__winmajor "K–4  V__imp__winminor "P–4  X"ª7lldiv_t f5  @quot "ª0∞   @rem "ª6∞   <lldiv_t "ª=55  F_amblksiz #5a"  Gatexit "ä$  £5  ‰2   Gatof "çÎ+  ª5  ≈'   Gatoi "ê$  ”5  ≈'   Gatol "í0  Î5  ≈'   Gbsearch "ñ∏.  6  L3  L3  á  á  6   = 6  Y$  46  L3  L3   Gdiv "ú3  P6  $  $   Ggetenv "ù?"  j6  ≈'   Gldiv "ß∫3  á6  0  0   Gmblen "©$  •6  ≈'  á   Gmbstowcs "±á  À6  E"  ≈'  á   Gmbtowc "Ø$  Ô6  E"  ≈'  á   Zqsort "ó7  ∏.  á  á  6   Jrand "¥$  Zsrand "∂67  a"   Hstrtod "¬ Î+  U7  ≈'  24   Gstrtol "Â0  y7  ≈'  24  $   Gstrtoul "ÁÅ"  û7  ≈'  24  $   Qsystem U$  ∑7  ≈'   Gwcstombs "á  ›7  ?"  '  á   Gwctomb "Ó$  ¸7  ?"  K"   Glldiv "Ω%f5  8  ∞  ∞   Gatoll "»(∞  38  ≈'   Gstrtoll "ƒ(∞  X8  ≈'  24  $   Gstrtoull "≈1ñ  ~8  ≈'  24  $   Hstrtof "…,  ù8  ≈'  24   Gstrtold "‘'X.  Ω8  ≈'  24   Zclearerr B’8  ß&   Gfclose C$  Ô8  ß&   Gfeof J$   9  ß&   Gferror K$  !9  ß&   Gfflush L$  ;9  ß&   Gfgetc M$  T9  ß&   Gfgetpos O$  t9  ß&  t9   =∑1  Gfgets Q?"  ù9  ?"  $  ß&   Gfopen Xß&  ª9  ≈'  ≈'   Hfprintf N$  ‹9  ß&  ≈'  I Gfread ]á  :  ∏.  á  á  ß&   Gfreopen ^ß&  ):  ≈'  ≈'  ß&   Hfscanf !$  I:  ß&  ≈'  I Gfseek a$  l:  ß&  0  $   Gfsetpos _$  å:  ß&  å:   =∆1  Gftell b0  ´:  ß&   Ggetc è$  √:  ß&   Jgetchar ê$  Zperror ñÍ:  ≈'   Hprintf Y$  ;  ≈'  I Gremove §$  ;  ≈'   Grename •$  >;  ≈'  ≈'   Zrewind ´T;  ß&   Hscanf $  n;  ≈'  I Zsetbuf ≠â;  ß&  ?"   Gsetvbuf ±$  ≥;  ß&  ?"  $  á   Hsprintf d$  ‘;  ?"  ≈'  I Hsscanf 
+$  Ù;  ≈'  ≈'  I Jtmpfile Àß&  Gtmpnam Ã?"  <  ?"   Gungetc Õ$  ><  $  ß&   Hvfprintf o$  d<  ß&  ≈'  b   Hvprintf v$  Ñ<  ≈'  b   Hvsprintf }$  ™<  ?"  ≈'  b   Hsnprintf Ñ$  —<  ?"  á  ≈'  I Hvfscanf @$  ˆ<  ß&  ≈'  b   Hvscanf 9$  =  ≈'  b   Hvsnprintf è$  A=  ?"  á  ≈'  b   Hvsscanf 2$  f=  ≈'  ≈'  b   =0  wctrans_t $ÆK"  Giswctype #$  ü=  È     Qtowctrans $ØÈ  ¿=  È  l=   Qwctrans $∞l=  ⁄=  ≈'   Qwctype $±  Û=  ≈'   [/  	        /»   \_ZNSt17integral_constantIbLb0EE5valueE ∑   \_ZNSt17integral_constantIbLb1EE5valueE ≈	  ]_ZN9__gnu_cxx24__numeric_traits_integerIiE5__minE ≈  ÄÄÄÄx^_ZN9__gnu_cxx24__numeric_traits_integerIiE5__maxE —  ˇˇˇ\_ZN9__gnu_cxx25__numeric_traits_floatingIfE16__max_exponent10E ›  &__ZN9__gnu_cxx25__numeric_traits_floatingIdE16__max_exponent10E B  4__ZN9__gnu_cxx25__numeric_traits_floatingIeE16__max_exponent10E ¨  D\_ZN9__gnu_cxx24__numeric_traits_integerImE8__digitsE    \_ZN9__gnu_cxx24__numeric_traits_integerIcE5__maxE e  ]_ZN9__gnu_cxx24__numeric_traits_integerIsE5__minE ¿  ÄÄ~__ZN9__gnu_cxx24__numeric_traits_integerIsE5__maxE Ã  ˇ]_ZN9__gnu_cxx24__numeric_traits_integerIxE5__minE '  ÄÄÄÄÄÄÄÄÄ`_ZN9__gnu_cxx24__numeric_traits_integerIxE5__maxE 3  ˇˇˇˇˇˇˇa_GLOBAL__sub_I__Z3asdv à              úb__static_initialization_and_destruction_0 L       <       úÆA  c__initialize_p 	$  ë c__priority 	$  ë a__tcf_0 1              údasd _Z3asdv         1       ú %
+   9:
+;
+  9 :
+;9
+â  : :
+;9
+   :
+;
+9
+   :
+;9
+   
+
+:
+;
+9
+  .?:
+;
+9
+n<cã
+d  	 I4  
+& I  
+4 :
+;
+9
+nI?<  9:
+;
+9
+  
+
+
+:
+;
+9
+  
+ :
+;
+9
+I8
+  .?:
+;
+9
+n<cd   I  .?:
+;
+9
+n<d  .?:
+;
+9
+nI<d  .?:
+;
+9
+n2
+<d  .?:
+;
+9
+nI2
+<d  .?:
+;
+9
+n2
+<d  .?:
+;
+9
+nI2
+<cd  .?:
+;
+9
+nI2
+<d  .?:
+;
+9
+ná<   :
+;
+9
+I   <  
+
+:
+;
+9
+  
+ :
+;
+9
+I?<l   :
+;
+9
+I  .?:
+;
+9
+nI<d  / I   0 I
+  !9 :
+;9
+  ">
+
+
+I:
+;
+9
+  #( 
+  $4 :
+;
+9
+I<
+l  %9 :
+;
+9
+  &
+
+:
+;9
+  '.?:
+;9
+n<  ( :
+;9
+I  ).?:
+;9
+nI<  *.?:
+;9
+nI<  +. ?:
+;9
+nI<  ,/ I  -9:
+;9
+â  .9 :
+;
+9
+â  /: :
+;
+9
+  0<  1
+
+:
+;9
+2
+  2.?:
+;9
+n2
+<d  3
+ :
+;9
+I?<  4/ I  54 :
+;
+9
+I<  69:
+;9
+  7
+ :
+;
+9
+I?<  8.?:
+;
+9
+nI<  9
+
+:
+;
+9
+  : 
+
+I  ;$ 
+
+>
+  < :
+;9
+I  = 
+
+I  >
+:
+;9
+  ?
+
+:
+;9
+  @
+ :
+;9
+I8
+  A
+ :
+;9
+I8
+  B
+ :
+;9
+I8  C <  DI  E! I/
+  F4 :
+;
+9
+I?<  G.?:
+;9
+I<  H.:
+;9
+I<  I   J. ?:
+;9
+I<  K.:
+;
+9
+I<  L 
+
+  M 
+
+I  N;   OB 
+
+I  P4 G  Q.?:
+;
+9
+I<  R. ?:
+;
+9
+I<  S!   T   U  V4 :
+;9
+I?<  W&   X
+
+:
+;9
+n  YI  Z.?:
+;9
+<  [4 G  \4 nG
+  ]4 nG
+  ^4 nG  _4 nG  `4 nG   a. 4 @ñB  b.4 @ñB  c :
+;
+9
+I  d. ?:
+;
+9
+n @ñB   ,                     ¶                       o     ˚
+      C:/Users/deffe/OneDrive/–Ó·Ó˜ËÈ ÒÚ≥Î/LAB11/ModulesRadchenko D:/DevProgram/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ D:/DevProgram/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits D:/DevProgram/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug D:/DevProgram/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits D:/DevProgram/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext D:/DevProgram/CodeBlocks/MinGW/x86_64-w64-mingw32/include  main.cpp   iostream   cwchar   new   exception_ptr.h   type_traits   cpp_type_traits.h   stl_pair.h   debug.h   char_traits.h   c++config.h   cstdint   clocale   cstdlib   cstdio   basic_string.h   system_error   ios_base.h   cwctype   iosfwd   predefined_ops.h   new_allocator.h   numeric_traits.h   crtdefs.h    locale.h    wchar.h    swprintf.inl    stdint.h    stdio.h    ctype.h    process.h    pthread.h    atomic_word.h   stdlib.h    malloc.h    wctype.h    <built-in>      	        
+É.Â¡ tÇø.÷ f¡ êøttÇ __max_exponent10 __max_digits10 piecewise_construct_t nothrow_t value_type to_int_type vswprintf to_char_type __max __is_signed __min __digits10 exception_ptr refcount __value __digits eq_int_type char_type _Value int_type _Traits swprintf operator() operator= assign _CharT GCC: (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0                                     ˇˇˇˇ x  †      $               1       AÜC
+l∆    $       1              AÜC
+V∆    $       L       <       AÜC
+w∆    $       à              AÜC
+Y∆     
+          )       +       *    &   ,    <       A   -    l       q   .    }   /        
+       
+              
+       
+              
+       
+            $   
+    (   
+    ,           
+          
+ ¥   
+    ƒ   !   
+ $  #   
+ 1  #   
+ ì  #   
+ Ω  #   
+ Ô  #   
+ 0  #   
+ z  #   
+ ¡  #   
+ 
+  #   
+ X  #   
+ ∆  #   
+ G	  #   
+ ‘	  #   
+ T
+  #   
+ 
+  #   
+ Q
+  #   
+ ç
+  #   
+ û
+  #   
+ ´
+  #   
+ +  #   
+ f  #   
+ B  #   
+ Ö  #   
+ ƒ  #   
+ ÷  #   
+   #   
+ ¿  #   
+ ¯  #   
+ 3  #   
+   #   
+ R  #   
+ ë  #   
+ £  #   
+ ·  #   
+ ç  #   
+ D  #   
+ M  #   
+ è  #   
+ ò  #   
+ ‘  #   
+ ›  #   
+   #   
+ (  #   
+ ∆  #   
+ “  #   
+ ﬁ  #   
+ Í  #   
+ ˆ  #   
+ ∫  #   
+ ∆  #   
+ “  #   
+ ﬁ  #   
+ Í  #   
+   #   
+ +  #   
+ 7  #   
+ C  #   
+ O  #   
+ â  #   
+ ï  #   
+ °  #   
+ ≠  #   
+ π  #   
+ ¯  #   
+   #   
+   #   
+   #   
+ (  #   
+ Z  #   
+ f  #   
+ r  #   
+ ~  #   
+ ä  #   
+ ¡  #   
+ Õ  #   
+ Ÿ  #   
+ Â  #   
+ Ò  #   
+ (  #   
+ 4  #   
+ @  #   
+ L  #   
+ X  #   
+ ™  #   
+ Õ  #   
+ â(  #   
+ •(  #   
+ T)  #   
+ t)  #   
+ ˙=      *A  
+    gA  
+    ∑A  
+    ŸA  
+          
+    
+    .  
+        0        1       '   
+     
+    D   '   
+ H   
+    l   '   
+ p   
+    î   '   
+ ò   
+    .file       ˛ˇ  gmain.cpp              ø               ⁄           _Z3asdv                              È                                                     __tcf_0 1           L  L           |  à       .text          ¶   
+             .data                            .bss                            .rdata         
+                 .xdata         0                 .pdata         0                .ctors                              ì         ÏA  a                 ü      	                       ≠      
+   0                    º      
+   s                   »                             ”      
+   ?                     ﬁ         ∏                    Î              ˝              @               x               â               °           atexit               π               Ù           ˛  .debug_info .debug_abbrev .debug_aranges .debug_line .debug_str .rdata$zzz .rdata$.refptr._ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ .rdata$.refptr._ZSt4cout .debug_frame _ZStL19piecewise_construct _ZStL8__ioinit .rdata$.refptr._ZSt4cout .rdata$.refptr._ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ _Z41__static_initialization_and_destruction_0ii _GLOBAL__sub_I__Z3asdv .debug_info .debug_abbrev .debug_aranges .debug_line .debug_str .rdata$zzz .debug_frame .refptr._ZSt4cout .refptr._ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc _ZNSolsEPFRSoS_E _ZNSt8ios_base4InitD1Ev _ZNSt8ios_base4InitC1Ev _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ _ZSt4cout 
