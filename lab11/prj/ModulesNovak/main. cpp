@@ -17,7 +17,7 @@ std::vector<Record> registry;
 void saveRegistryData(const std::vector<Record>& registry, const std::string& filename) {
     std::ofstream file(filename, std::ios::binary);
     if (!file.is_open()) {
-        std::cerr << "Íå âäàëîñÿ â³äêðèòè ôàéë äëÿ çàïèñó: " << filename << std::endl;
+        std::cerr << "ÃÃ¥ Ã¢Ã¤Ã Ã«Ã®Ã±Ã¿ Ã¢Â³Ã¤ÃªÃ°Ã¨Ã²Ã¨ Ã´Ã Ã©Ã« Ã¤Ã«Ã¿ Ã§Ã Ã¯Ã¨Ã±Ã³: " << filename << std::endl;
         return;
     }
     for (const auto& record : registry) {
@@ -33,7 +33,7 @@ void saveRegistryData(const std::vector<Record>& registry, const std::string& fi
 void loadRegistryData(std::vector<Record>& registry, const std::string& filename) {
     std::ifstream file(filename, std::ios::binary);
     if (!file.is_open()) {
-        std::cerr << "Íå âäàëîñÿ â³äêðèòè ôàéë äëÿ ÷èòàííÿ: " << filename << std::endl;
+        std::cerr << "ÃÃ¥ Ã¢Ã¤Ã Ã«Ã®Ã±Ã¿ Ã¢Â³Ã¤ÃªÃ°Ã¨Ã²Ã¨ Ã´Ã Ã©Ã« Ã¤Ã«Ã¿ Ã·Ã¨Ã²Ã Ã­Ã­Ã¿: " << filename << std::endl;
         return;
     }
     Record record;
@@ -54,7 +54,7 @@ void outputRegistry(const std::vector<Record>& registry, const std::string& file
     if (!filename.empty()) {
         file.open(filename);
         if (!file.is_open()) {
-            std::cerr << "Íå âäàëîñÿ â³äêðèòè ôàéë äëÿ çàïèñó: " << filename << std::endl;
+            std::cerr << "ÃÃ¥ Ã¢Ã¤Ã Ã«Ã®Ã±Ã¿ Ã¢Â³Ã¤ÃªÃ°Ã¨Ã²Ã¨ Ã´Ã Ã©Ã« Ã¤Ã«Ã¿ Ã§Ã Ã¯Ã¨Ã±Ã³: " << filename << std::endl;
             return;
         }
         out = &file;
@@ -63,12 +63,12 @@ void outputRegistry(const std::vector<Record>& registry, const std::string& file
     }
 
     for (const auto& record : registry) {
-        *out << "Íàçâà âèäàííÿ: " << record.name << "\n"
-             << "Òèï âèäàííÿ: " << record.type << "\n"
-             << "Ñåð³ÿ òà íîìåð ñâ³äîöòâà: " << record.registration_number << "\n"
-             << "Äàòà ðåºñòðàö³¿: " << record.registration_date << "\n"
-             << "²íôîðìàö³ÿ ïðî çàñíîâíèê³â: " << record.founders_info << "\n"
-             << "Îðãàí, ÿêèé çä³éñíèâ ðåºñòðàö³þ: " << record.registering_authority << "\n"
+        *out << "ÃÃ Ã§Ã¢Ã  Ã¢Ã¨Ã¤Ã Ã­Ã­Ã¿: " << record.name << "\n"
+             << "Ã’Ã¨Ã¯ Ã¢Ã¨Ã¤Ã Ã­Ã­Ã¿: " << record.type << "\n"
+             << "Ã‘Ã¥Ã°Â³Ã¿ Ã²Ã  Ã­Ã®Ã¬Ã¥Ã° Ã±Ã¢Â³Ã¤Ã®Ã¶Ã²Ã¢Ã : " << record.registration_number << "\n"
+             << "Ã„Ã Ã²Ã  Ã°Ã¥ÂºÃ±Ã²Ã°Ã Ã¶Â³Â¿: " << record.registration_date << "\n"
+             << "Â²Ã­Ã´Ã®Ã°Ã¬Ã Ã¶Â³Ã¿ Ã¯Ã°Ã® Ã§Ã Ã±Ã­Ã®Ã¢Ã­Ã¨ÃªÂ³Ã¢: " << record.founders_info << "\n"
+             << "ÃŽÃ°Ã£Ã Ã­, Ã¿ÃªÃ¨Ã© Ã§Ã¤Â³Ã©Ã±Ã­Ã¨Ã¢ Ã°Ã¥ÂºÃ±Ã²Ã°Ã Ã¶Â³Ã¾: " << record.registering_authority << "\n"
              << "------------------------------" << std::endl;
     }
 
@@ -79,7 +79,7 @@ void outputRegistry(const std::vector<Record>& registry, const std::string& file
 
 void exitProgram(const std::vector<Record>& registry, const std::string& filename) {
     saveRegistryData(registry, filename);
-    std::cout << "Äàí³ çáåðåæåíî. Ïðîãðàìó çàâåðøåíî." << std::endl;
+    std::cout << "Ã„Ã Ã­Â³ Ã§Ã¡Ã¥Ã°Ã¥Ã¦Ã¥Ã­Ã®. ÃÃ°Ã®Ã£Ã°Ã Ã¬Ã³ Ã§Ã Ã¢Ã¥Ã°Ã¸Ã¥Ã­Ã®." << std::endl;
     exit(0);
 }
 
