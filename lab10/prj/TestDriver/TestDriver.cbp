@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+  <Project>
+    <Option title="TestDriver" />
+    <Option makefile="makefile" />
+    <Build>
+      <Target title="Debug">
+        <Option output="bin/Debug/TestDriver.exe" prefix="" extension="exe" />
+        <Option object_output="obj/Debug" />
+        <Option type="ConsoleApp" />
+        <Option compiler="gcc" />
+      </Target>
+    </Build>
+    <Unit filename="main.cpp" />
+  </Project>
+</CodeBlocks_project_file>
