@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+  <Project>
+    <Option title="ModulesSelikhova" />
+    <Option makefile="makefile" />
+    <Build>
+      <Target title="StaticLib">
+        <Option output="libModulesSelikhova.a" prefix="lib" extension="a" />
+        <Option type="StaticLib" />
+      </Target>
+    </Build>
+    <Unit filename="ModulesSelikhova.cpp" />
+  </Project>
+</CodeBlocks_project_file>
