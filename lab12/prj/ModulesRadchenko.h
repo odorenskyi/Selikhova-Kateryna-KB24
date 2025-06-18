@@ -1,0 +1,41 @@
+#ifndef MODULESSELIKHOVA_H_INCLUDED
+#define MODULESSELIKHOVA_H_INCLUDED
+
+#include <string> // Для використання std::string
+#include <cmath>  // Для M_PI
+
+// Визначення M_PI, якщо воно не визначено за замовчуванням (наприклад, у Visual Studio може знадобитися #define _USE_MATH_DEFINES)
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+
+class ClassLab12_Selikhova {
+public:
+    // Конструктор за замовчуванням
+    ClassLab12_Selikhova();
+
+    // Конструктор із параметрами для ініціалізації об'єкта столу
+    // param1: довжина/радіус/велика піввісь
+    // param2: ширина/мала піввісь (необов'язковий, за замовчуванням 0.0f)
+    ClassLab12_Selikhova(const std::string& shape, float param1, float param2 = 0.0f);
+
+    // Сеттери для зміни значень атрибутів з валідацією
+    void setShape(const std::string& shape);
+    void setParam1(float param1);
+    void setParam2(float param2);
+
+    // Геттери для отримання значень атрибутів
+    std::string getShape() const;
+    float getParam1() const;
+    float getParam2() const;
+
+    // Метод для обчислення площі поверхні столу
+    float calculateArea() const;
+
+private:
+    std::string shape;  // Форма поверхні столу (наприклад, "rectangle", "circle", "ellipse")
+    float param1;       // Перший параметр розміру (довжина для прямокутника, радіус для кола, велика піввісь для еліпса)
+    float param2;       // Другий параметр розміру (ширина для прямокутника, мала піввісь для еліпса)
+};
+
+#endif // MODULESSELIKHOVA_H_INCLUDED
