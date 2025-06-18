@@ -1,0 +1,138 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <sstream>
+#include <string>    // Äëÿ std::string
+#include <cmath>     // Äëÿ round, M_PI (ÿêùî âèêîðèñòîâóºòüñÿ íàïðÿìó)
+#include <iomanip>   // Äëÿ std::fixed, std::setprecision (äëÿ êðàùîãî âèâîäó)
+#include <stdexcept> // Äëÿ îáðîáêè âèíÿòê³â ç êëàñó
+
+// Âêëþ÷àºìî ôàéë çàãîëîâêà íàøîãî êëàñó ClassLab12_Selikhova
+// Âàæëèâî: ïåðåêîíàéòåñÿ, ùî øëÿõ äî ôàéëó ïðàâèëüíèé â³äíîñíî main.cpp
+#include "../moduleselikhova.h"
+
+using namespace std;
+
+// Îíîâëåíà ñòðóêòóðà äëÿ òåñòîâîãî íàáîðó
+struct TestSuite {
+    string shape;    // Ôîðìà ñòîëó
+    float param1;    // Ïåðøèé ïàðàìåòð
+    float param2;    // Äðóãèé ïàðàìåòð
+    float expResult; // Î÷³êóâàíèé ðåçóëüòàò (ïëîùà)
+};
+
+// Ôóíêö³ÿ äëÿ ÷èòàííÿ CSV-ôàéëó (îíîâëåíà ï³ä íîâ³ ïàðàìåòðè)
+vector<TestSuite> readCSVFile(string filePath) {
+    ifstream testSuiteFile(filePath);
+    vector<TestSuite> autotest;
+    TestSuite ts;
+    string line, value;
+
+    if (!testSuiteFile.is_open()) {
+        cerr << "Ïîìèëêà: Íå âäàëîñÿ â³äêðèòè ôàéë " << filePath << endl;
+        return autotest; // Ïîâåðòàºìî ïîðîæí³é âåêòîð ó âèïàäêó ïîìèëêè
+    }
+
+    getline(testSuiteFile, line); // Ïðîïóñêàºìî çàãîëîâîê CSV (ïåðøèé ðÿäîê)
+
+    while (getline(testSuiteFile, line)) {
+        stringstream s(line);
+        vector<string> row;
+
+        while (getline(s, value, ',')) {
+            // Âèäàëÿºìî ïðîá³ëè íà ïî÷àòêó òà â ê³íö³ êîæíîãî çíà÷åííÿ
+            value.erase(0, value.find_first_not_of(" \t\n\r\f\v"));
+            value.erase(value.find_last_not_of(" \t\n\r\f\v") + 1);
+            row.push_back(value);
+        }
+
+        // Î÷³êóºìî 4 ñòîâïö³: ôîðìà, param1, param2, expResult
+        if (row.size() >= 4) {
+            ts.shape = row[0];
+            ts.param1 = stof(row[1]);
+            // param2 ìîæå áóòè ïîðîæí³ì äëÿ äåÿêèõ ôîðì (íàïðèêëàä, êîëî)
+            ts.param2 = (row[2].empty() || row[2] == "0") ? 0.0f : stof(row[2]);
+            ts.expResult = stof(row[3]);
+            autotest.push_back(ts);
+        } else {
+            cerr << "Ïîïåðåäæåííÿ: Ïðîïóùåíî ðÿäîê ç íåêîðåêòíîþ ê³ëüê³ñòþ ñòîâïö³â: " << line << endl;
+        }
+    }
+
+    testSuiteFile.close();
+    return autotest;
+}
+
+int main() {
+    ofstream testResultFile;
+    string pathFile = __FILE__;
+    size_t found = pathFile.find("\\Lab12\\prj");
+
+    // Âñòàíîâëþºìî òî÷í³ñòü âèâîäó äëÿ ðåçóëüòàò³â òåñòó
+    cout << fixed << setprecision(2);
+
+    if (found == string::npos) {
+        testResultFile.open("TestResult.txt");
+        if (!testResultFile.is_open()) return -1;
+
+        // Íåîáõ³äíî âêàçàòè ïðè÷èíó ïîðóøåííÿ âèìîã, à íå ïðîñòî "á³ï"
+        // Âèäàëåíî öèêë ç '\a'
+        testResultFile << "Âñòàíîâëåí³ âèìîãè ïîðÿäêó âèêîíàííÿ ëàáîðàòîðíî¿ ðîáîòè ïîðóøåíî!" << endl;
+        testResultFile << "Áóäü ëàñêà, ðîçì³ñò³òü ïðîåêò ó â³äïîâ³äí³é äèðåêòîð³¿: ...\\Lab12\\prj\\teacher\\main.cpp" << endl;
+    } else {
+        testResultFile.open("..\\..\\TestSuite\\TestResult.txt");
+        if (!testResultFile.is_open()) {
+            cerr << "Ïîìèëêà: Íå âäàëîñÿ â³äêðèòè ôàéë ðåçóëüòàò³â òåñòóâàííÿ TestResult.txt" << endl;
+            return -1;
+        }
+
+        vector<TestSuite> autotest = readCSVFile("..\\..\\TestSuite\\TS.txt");
+
+        if (autotest.empty()) {
+            testResultFile << "Íåìàº äàíèõ äëÿ òåñòóâàííÿ. Ïåðåâ³ðòå ôàéë TS.txt" << endl;
+        }
+
+        for (int i = 0; i < autotest.size(); i++) {
+            float result = 0.0f;
+            bool test_passed = false;
+            string status_message = "";
+
+            try {
+                // Ñòâîðåííÿ îá'ºêòà êëàñó ClassLab12_Selikhova ç ïàðàìåòðàìè ç òåñòîâîãî íàáîðó
+                ClassLab12_Selikhova table(autotest[i].shape, autotest[i].param1, autotest[i].param2);
+                result = table.calculateArea();
+
+                // Ïîð³âíÿííÿ ç îêðóãëåííÿì (äëÿ ïëàâàþ÷èõ ÷èñåë)
+                // Âèêîðèñòîâóºìî íåâåëèêèé äîïóñê äëÿ ïîð³âíÿííÿ float
+                float tolerance = 0.01f; // Äîïóñê, íàïðèêëàä, 0.01
+                if (abs(autotest[i].expResult - result) < tolerance) {
+                    test_passed = true;
+                    status_message = "passed";
+                } else {
+                    status_message = "failed";
+                }
+
+            } catch (const invalid_argument& e) {
+                status_message = "failed (Ïîìèëêà âàë³äàö³¿: " + string(e.what()) + ")";
+            } catch (const runtime_error& e) {
+                status_message = "failed (Ïîìèëêà âèêîíàííÿ: " + string(e.what()) + ")";
+            } catch (const exception& e) {
+                status_message = "failed (Íåâ³äîìà ïîìèëêà: " + string(e.what()) + ")";
+            }
+
+            testResultFile << "test ¹" << i + 1 << " -> " << status_message << endl;
+            if (!test_passed && status_message.find("passed") == string::npos) { // ßêùî òåñò íå ïðîéøîâ àáî âèíèêëà ïîìèëêà
+                testResultFile << "  Î÷³êóâàíî -> " << autotest[i].expResult << endl;
+                testResultFile << "  Ôàêòè÷íî -> " << result << endl;
+                testResultFile << "  Ïàðàìåòðè: Ôîðìà='" << autotest[i].shape
+                               << "', P1=" << autotest[i].param1
+                               << ", P2=" << autotest[i].param2 << endl;
+            }
+            testResultFile << endl;
+        }
+    }
+
+    testResultFile.close();
+    system("pause"); // Çàëèøàºìî äëÿ çðó÷íîñò³ â³äëàäêè â Windows
+    return 0;
+}
